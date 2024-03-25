@@ -1,0 +1,6 @@
+.env
+credentials.json
+token.json
+/myvenv
+/__pycache__
+```
