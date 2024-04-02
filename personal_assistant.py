@@ -31,7 +31,7 @@ def chat(query):
   return response['result']
 
 def main():
-  st.title('Know about your health!')
+  st.title('Hello!How can I help you today?')
 
   # Initialize chat history (stored in session state)
   if 'chat_history' not in st.session_state:

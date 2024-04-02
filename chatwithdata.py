@@ -45,7 +45,7 @@ def chat(query,embeddings,collection_name):
 
 def main():
   
-  st.title('Research Assistant')
+  st.title('Chat with your Data!')
   st.write("Upload a PDF file to get started.")
 
   uploaded_file = st.file_uploader("Upload PDF", type="pdf")

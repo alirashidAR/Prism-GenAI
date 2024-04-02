@@ -9,7 +9,7 @@ st.set_page_config(
     page_icon=""
 )
 
-st.title("You Personal Assistant: Gem")
+st.title("You Email  Assistant: Gem")
 
 if "app_key" not in st.session_state:
     app_key = st.text_input("Please enter your Gemini API Key", type='password')

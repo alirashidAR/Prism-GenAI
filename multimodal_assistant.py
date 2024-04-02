@@ -39,7 +39,7 @@ def ask_vllm(question, image_b64, model):
 
 
 def app():
-    st.session_state["model"] = st.selectbox("Choose a model", ["llava", "llava:13b", "bakllava"])
+    st.session_state["model"] = st.selectbox("Choose a model", ["llava"])
     st.markdown("---")
     c1, c2 = st.columns(2)
     with c2:
