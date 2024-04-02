@@ -5,7 +5,7 @@ import random
 from main import email_service
 
 st.set_page_config(
-    page_title="Chat with Gemini Pro",
+    page_title="Gem",
     page_icon=""
 )
 
@@ -83,3 +83,5 @@ if "app_key" in st.session_state:
             except Exception as e:
                 st.exception(e)
             st.session_state.history = chat.history
+
+
